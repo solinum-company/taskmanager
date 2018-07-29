@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientOptions;
-import com.mongodb.MongoClientURI;
-import com.mongodb.MongoCredential;
-import com.mongodb.ReadPreference;
-import com.mongodb.ServerAddress;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +11,12 @@ import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 import rugal.sample.core.repository.RepositoryPackage;
+
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientOptions;
+import com.mongodb.MongoCredential;
+import com.mongodb.ReadPreference;
+import com.mongodb.ServerAddress;
 
 /**
  * Java based application context configuration class.

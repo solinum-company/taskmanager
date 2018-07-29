@@ -18,8 +18,8 @@ public class Student {
 
 	private int age;
 
-	@DBRef
-	private ClassRoom classRoom;
+//	@DBRef
+//	private ClassRoom classRoom;
 
 	public String getId() {
 		return id;
@@ -45,18 +45,18 @@ public class Student {
 		this.age = age;
 	}
 
-	public ClassRoom getClassRoom() {
-		return classRoom;
-	}
-
-	public void setClassRoom(ClassRoom classRoom) {
-		this.classRoom = classRoom;
-	}
+//	public ClassRoom getClassRoom() {
+//		return classRoom;
+//	}
+//
+//	public void setClassRoom(ClassRoom classRoom) {
+//		this.classRoom = classRoom;
+//	}
 
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", age=" + age
-				+ ", classRoom=" + classRoom + "]";
+				+ ", classRoom="  + "]";
 	}
 
 }

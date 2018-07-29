@@ -50,7 +50,7 @@ public class StudentRepositoryTest extends JUnitSpringTestBase
         Student result = new Student();
         result.setName("Bernstein");
         result.setAge(26);
-        result.setClassRoom(classrepository.findOne(new ObjectId("55b9a4cf5aa5f926d81d41cd")));
+        //result.setClassRoom(classrepository.findOne(new ObjectId("55b9a4cf5aa5f926d81d41cd")));
         repository.save(result);
     }
 
@@ -59,7 +59,7 @@ public class StudentRepositoryTest extends JUnitSpringTestBase
     {
         System.out.println("get");
         Student result = repository.findOne(new ObjectId("55541f64a06657226c35de4f"));
-        System.out.println(result.getClassRoom().getName());
+        //System.out.println(result.getClassRoom().getName());
     }
 
 //    @Test
