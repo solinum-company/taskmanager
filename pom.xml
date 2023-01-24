@@ -5,7 +5,7 @@
 	<artifactId>taskmanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>springmvc-spring-mongodb</name>
+	<name>Task manager</name>
 	<description>A JavaEE application skeleton based on springmvc spring and MongoDB with Java based configuration</description>
 	<licenses>
 		<license>
